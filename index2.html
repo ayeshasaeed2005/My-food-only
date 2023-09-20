@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Online Food Delivery Services|myonlineMeals.com</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+     <link rel="stylesheet" media="screen and (max-width: 1170px)" href="/phone.css">
+    
+     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+   <style>
+ body{
+    background-color: white;
+}
+#navbar{
+    position: sticky;
+    display: flex;
+    align-items: center;
+    top: 0%;
+    height: 100px !important;
+}
+#logo{
+ margin: 23px 34px;
+}
+ #logo img{
+  margin: 7px 6px;
+ }
+ #navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+ }
+ #navbar::before{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+ }
+ #navbar ul li{
+    color: white;
+    list-style: none;
+    font-size: 1.3rem;
+ }
+ #navbar ul li a{
+    
+   display: block;
+   padding: 3px 22px;
+   border-radius: 20px;
+   text-decoration: none;
+   color: white;
+ }
+ #navbar ul li a:hover{
+     color:#2bab2a ;
+     background-color: white;
+     
+    
+ }
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* css varaibles */
+:root{
+    --navbar-height:59px
+}
+ 
+ #home{
+    display: flex;
+    flex-direction:column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 578px;
+}
+ #home::before{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: "";
+    
+    background: url(photo-1504674900247-0877df9cc836.jpeg) no-repeat center center/cover;
+    height: 987px;
+    width: 100%;
+    z-index: -1;
+    
+    opacity: 0.9;
+}
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;  
+    font-family: 'Bree Serif', serif;
+    position: relative;
+    bottom: -5px;
+}
+.h-secondary{
+    font-size: 2.3rem;
+    padding: 12px; 
+    font-family: 'Bree Serif', serif;
+}
+#home h1{
+    color: white;
+    text-align: center; 
+    font-family: 'Bree Serif', serif;
+}
+.center{
+    text-align: center;
+}
+    
+    
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem; 
+     font-family: 'Bree Serif', serif;
+    
+}
+.btn{
+   padding:6px 20px ; 
+   border: 2px solid white;
+   /* background-color:#2bab2a;; */
+   color: #2bab2a;
+   margin: 20px;
+   font-size: 1.5rem;
+   border-radius: 10px;
+   cursor: pointer;
+transition: 0.5S;
+}
+.btn:hover{
+ background-color: #2bab2a;
+ color: #FFF;
+}
+#clinet{
+
+}
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid brown;
+    position: relative;
+    top: -43px;
+    width: 1300px;
+    /* height: 200px; */
+    padding: 34px;
+    margin: 2px 6px;
+    border-radius: 23px;
+    background-color: #f2f2f2;
+    margin-bottom: 300px;
+    margin-top: 50px;
+}
+#services .box p{
+    font-family: 'Bree Serif', serif;
+}
+#services .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+    width: 200px;
+    border-radius: 10PX;
+    
+    
+}
+ #services-container{
+    position: relative;
+    top: 303px;
+}
+ #services-container::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 72%;
+    z-index: -1;
+    opacity: 0.6;
+    background:url(healthy-restaurant-dinner.webp) no-repeat center center/cover;
+    /* background:url(istockphoto-1316145932-612x612.jpg) no-repeat center center/cover; */
+}
+/* section#home{
+    position: relative;
+    top: 23px;
+} */
+.myroom{
+  font-size: 3.8rem;
+    padding: 12px;  
+    font-family: 'Bree Serif', serif;   
+    position: relative;
+ top: 4px;
+  text-align: center;
+}
+.koko{
+  font-size: 3.8rem;
+    padding: 12px;  
+    font-family: 'Bree Serif', serif;   
+    position: relative;
+ top: 22px;
+  text-align: center;
+}
+.clinet-item img{
+    position: relative;
+    top: -20px;
+    height: 124px;
+    border-radius: 11px;
+
+}
+.clinet-item{
+    padding: 34px;
+}
+#clinet-section{
+  height: 344px;
+}
+#clinet-section::before{
+ content: "";
+ position: absolute;
+ background: url(cover-for-Restaurants-In-Varanasi_11th-dec.webp);
+ width: 100%;
+ height: 45%;
+ z-index: -1;
+ opacity: 0.6;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;  
+     align-items: center;
+     padding-bottom: 34px;
+
+ 
+}
+#contact-box form{
+   width: 40%;
+}
+#contact-box label{
+   font-size: 1.3rem; 
+   font-family: 'Bree Serif', serif; 
+}
+
+    
+
+#contact-box input,#contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#clinet{
+    display: flex;
+    justify-content:center;
+   align-items: center;
+    
+
+}
+.services-container img{
+    height: 10px;
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background:url(contact-us-hand-businessman-holding-mobile-smartphone-with-mail-phone-email-icon_52701-38.avif) no-repeat center center/cover;
+
+}
+ footer{ background: black;
+      color: white;
+    padding: 9px 20px;}
+
+
+   </style>
+</head>
+<body>
+<nav id="navbar">
+    <div id="logo">
+        <img src="1600w-jeSR74GRMC8.webp"alt="myonlinemeals.com" height="80px" width="80px">
+    </div>
+    <ul>
+        <li class="item"><a href="#home">Home</a></li>
+        <li class="item"><a href="#services">Services</a></li>
+        <li class="item"><a href="#clinet"> Our Clinets</a></li>
+        <!-- <li class="item"><a href="#">More</a></li> -->
+        <li class="item"><a href="#contact">Contact Us</a></li>
+    </ul>
+
+</nav>
+<section id="home">
+    <h1 class="h-primary"> Welcome to myonlineMeals</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto labore ex dolore!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    <button class="btn">Order Now</button>
+</section>
+<!-- services -->
+
+<section id="services-container"><hr>
+    <h1 class="h-primary center">Our Services</h1>
+    
+    <div id="services">
+        <div class="box">
+            <!-- <img src="https://img.freepik.com/premium-photo/pizza-margherita-with-tomatoes-mushrooms-white-isolated-background_565470-1868.jpg?w=740" alt=""> -->
+            <img src="https://img.freepik.com/free-photo/tasty-top-view-sliced-pizza-italian-traditional-round-pizza_90220-1357.jpg?t=st=1689628075~exp=1689631675~hmac=9ff4a31d1b7eb3ba245887f7b928045a9daecaa2e3dc695a3a9973e6c0776a47&w=740" alt="">
+            <h2 class="h-secondary center">Food catering</h2>
+            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptas odio minus repellat soluta ut fugit ipsa vel,
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate a iure dolorum enim voluptatibus doloremque, porro aspernatur, quibusdam corrupti esse provident maiores dolor. non vero sunt unde obcaecati ipsum mollitia quis explicabo alias, reiciendis neque , </p>
+        </div>
+        <div class="box">
+            <!-- <img src="https://img.freepik.com/premium-photo/pizza-margherita-with-tomatoes-mushrooms-white-isolated-background_565470-1868.jpg?w=740" alt=""> -->
+            <img src="1-2-food-free-png-image-thumb.png" alt="">
+            <h2 class="h-secondary center"> Bulk ordering</h2>
+            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptas odio minus repellat soluta ut fugit ipsa vel, Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore pariatur similique dolor assumenda rem, ut reiciendis incidunt natus quos officiis beatae necessitatibus ea.non vero sunt unde obcaecati ipsum mollitia quis explicabo alias, reiciendis neque , </p>
+        </div>
+        <div class="box">
+            <!-- <img src="https://img.freepik.com/premium-photo/pizza-margherita-with-tomatoes-mushrooms-white-isolated-background_565470-1868.jpg?w=740" alt=""> -->
+            <img src="81923053.webp" alt="">
+            <h2 class="h-secondary center">Food Ordering</h2>
+            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptas odio minus repellat soluta ut fugit ipsa vel,  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus ducimus ex facere necessitatibus. Veniam rerum ipsa reprehenderit aliquid praesentium, ex cum ducimus.non vero sunt unde obcaecati ipsum mollitia quis explicabo alias, reiciendis neque , </p>
+        </div>
+    </div>
+</section>
+<hr>
+<section id="clinet-section">
+  <!-- <h1 class="h-primary center">Our Clinets</h1> -->
+  <h1 class="myroom">Our Clinets</h1>
+  
+  <div id="clinet">
+
+    <div class="clinet-item">
+        <img src="Apple.png" alt="our clinet">
+    </div>
+  
+  
+    <div class="clinet-item">
+        <img src="Microsoft_logo.svg.png" alt="our clinet">
+    </div>
+  
+  
+    <div class="clinet-item">
+        <img src="kfc-new-logo-72E6348046-seeklogo.com.png" alt="our clinet">
+    </div>
+  
+    <div class="clinet-item">
+        <img src="2560px-Skype_logo.svg.png" alt="our clinet">
+    </div>
+  
+  
+    <div class="clinet-item">
+        <img src="images.jpeg" alt="our clinet">
+    </div>
+  </div>
+
+</section>
+<hr>
+<section id="contact">
+<h1 class="koko">Contact Us</h1>
+<div id="contact-box">
+    <form action="">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text " name="name" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email " name="name" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+            <label for="phone number">Phone number:</label>
+            <input type="phone " name="name" id="name" placeholder="Enter your phone number">
+        </div>
+        <div class="form-group">
+            <label for="message">message:</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+    </form>
+</div></section> 
+<footer>
+    <div class="center">
+        Copyright &copy; www.myOnlineMeal.com. All rights reserved!
+    </div>
+</footer>
+</body>
+</html>
